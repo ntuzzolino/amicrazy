@@ -1,0 +1,357 @@
+#slide{
+    color: white;
+    height: 100%;
+    position: absolute;
+    left: -100%;
+   
+    -webkit-animation: slide 6s forwards;
+
+    animation: slide 4s forwards;
+     animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 110%; }
+}
+
+@keyframes slide {
+    100% { left: 110%; }
+}
+#slide2{
+     color: white;
+    height: 50%;
+    position: absolute;
+    right: -10%;
+    -webkit-animation: slip 5s forwards;
+    -webkit-animation-delay: 3s;
+    animation-delay: 1s;
+    animation:  slip 5s fowards;
+    animation-iteration-count: infinite;
+}
+
+
+@-webkit-keyframes slip {
+    100% { right: 110%; }
+}
+
+@keyframes slip {
+    100% { right: 110%; }
+}
+#slide3{
+    color: white;
+    height: 100%;
+    position: absolute;
+    left: -100%;
+   
+    -webkit-animation: slip 4s forwards;
+   
+    animation: slip 6s forwards;
+     animation-iteration-count: infinite;
+}
+
+#slide4{
+    color: white;
+    height: 100%;
+    position: absolute;
+    left: -100%;
+   
+    -webkit-animation: slide 3s forwards;
+   animation-delay:  2s;
+    animation: slide 5s forwards;
+     animation-iteration-count: infinite;
+}
+
+#slide5{
+ color: white;
+    height: 10em;
+    position: absolute;
+    right: -10%;
+    -webkit-animation: slip 3s forwards;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    animation:  slip 6s fowards;
+    animation-iteration-count: infinite;
+}
+
+
+#slideBack{
+    color: white;
+    height: 10em;
+    position: absolute;
+    right: -10%;
+    -webkit-animation: slip 5s forwards;
+    -webkit-animation-delay: 3s;
+    animation-delay: 4s;
+    animation:  slip 4s fowards;
+    animation-iteration-count: infinite;
+}
+
+#slideContainer{
+    
+    position: absolute;
+    left: 110%;
+   
+    -webkit-animation: slide1 3s forwards;
+    animation-delay:  2s;
+    animation: slide1 3s forwards;
+     animation-iteration-count: 1;
+}
+@-webkit-keyframes slide1 {
+    100% { left: 100%; }
+}
+
+@keyframes slide1 {
+    100% { left: 100%; }
+}
+#slideBackContainer{
+   
+    position: absolute;
+    right: 110%;
+   
+    -webkit-animation: slip1 3s forwards;
+    animation-delay:  2s;
+    animation: slip1 3s forwards;
+    animation-iteration-count: 1;
+}
+@-webkit-keyframes slip1 {
+    100% { right: 50%; }
+}
+
+@keyframes slip1 {
+    100% { right: 50%; }
+}
+#cTest1 {
+  
+   background-size: cover;
+   height: 50em;
+   background-color: gold;
+  
+   text-shadow: white;
+
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-animation-name: cTest1; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+    animation-name: cTest1;
+    animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+@-webkit-keyframes cTest1 {
+    0%   {color: cornflowerblue ;}
+    25%  {color: aqua;}
+    50%  {color: lightgreen;}
+    75% {color: yellow;}
+    100% {color: lightsalmon}
+}
+
+/* Standard syntax */
+@keyframes cTest1{
+    0%   {color: cornflowerblue ;}
+    25%  {color: aqua;}
+    50%  {color: lightgreen;}
+    75% {color: yellow;}
+    100% {color: lightsalmon}
+}
+#cTest2 {
+    background-color: aqua;
+   background-size: cover;
+   text-shadow: white;
+   
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-animation-name: cTest2; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+    animation-name: cTest2;
+    animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+@-webkit-keyframes cTest2 {
+    0%   {color: lightsalmon ;}
+    25%  {color: cornflowerblue ;}
+    50%  {color: aqua;}
+    75% {color: lightgreen;}
+    100% {color: yellow}
+}
+
+/* Standard syntax */
+@keyframes cTest2{
+    0%   {color: lightsalmon ;}
+    25%  {color: cornflowerblue ;}
+    50%  {color: aqua;}
+    75% {color: lightgreen;}
+    100% {color: yellow}
+}
+
+#cTest3 {
+   
+   background-color: lime;
+   background-size: cover;
+   text-shadow: white;
+   
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-animation-name: cTest3; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+    animation-name: cTest3;
+    animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+@-webkit-keyframes cTest3 {
+    0%   {color:  yellow;}
+    25%  {color: lightsalmon ;}
+    50%  {color: cornflowerblue  ;}
+    75% {color: aqua;}
+    100% {color: lightgreen}
+}
+
+/* Standard syntax */
+@keyframes cTest3{
+    0%   {color:  yellow;}
+    25%  {color: lightsalmon ;}
+    50%  {color: cornflowerblue  ;}
+    75% {color: aqua;}
+    100% {color: lightgreen}
+}
+#cTest4 {
+    background-color: fuchsia;
+   background-size: cover;
+    text-shadow: white;
+   
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-animation-name: cTest4; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+    animation-name: cTest4;
+    animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+@-webkit-keyframes cTest4 {
+    0%   {color: lightgreen ;}
+    25%  {color: yellow ;}
+    50%  {color: lightsalmon  ;}
+    75% {color: cornflowerblue;}
+    100% {color: aqua}
+}
+
+/* Standard syntax */
+@keyframes cTest4{
+    0%   {color: lightgreen ;}
+    25%  {color: yellow ;}
+    50%  {color: lightsalmon  ;}
+    75% {color: cornflowerblue;}
+    100% {color: aqua}
+
+}
+#cTest5 {
+    background-color: orangered;
+   background-size: cover;
+   text-shadow: white;
+  
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-animation-name: cTest5; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+    animation-name: cTest5;
+    animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+@-webkit-keyframes cTest5 {
+    0%   {color: aqua;}
+    25%  {color: lightgreen ;}
+    50%  {color: yellow   ;}
+    75% {color: lightsalmon;}
+    100% {color: cornflowerblue}
+}
+
+/* Standard syntax */
+@keyframes cTest5{
+    0%   {color: aqua;}
+    25%  {color: lightgreen ;}
+    50%  {color: yellow   ;}
+    75% {color: lightsalmon;}
+    100% {color: cornflowerblue}
+}
+#cTest6 {
+    background-color: blue;
+  background-size: cover;
+   text-shadow: white;
+ 
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-animation-name: cTest6; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+    animation-name: cTest6;
+    animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+@-webkit-keyframes cTest6 {
+    0%   {color: cornflowerblue;}
+    25%  {color:  aqua ;}
+    50%  {color:  lightgreen  ;}
+    75% {color: yellow;}
+    100% {color: lightsalmon }
+}
+
+/* Standard syntax */
+@keyframes cTest6{
+    0%   {color: cornflowerblue;}
+    25%  {color:  aqua ;}
+    50%  {color:  lightgreen  ;}
+    75% {color: yellow;}
+    100% {color: lightsalmon }
+}
+
+.rotating {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+    @-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes tron {
+    0%   {color: cornflowerblue ;}
+    25%  {color: aqua;}
+    50%  {color: lightgreen;}
+    75% {color: yellow;}
+    100% {color: lightsalmon}
+}
+
+/* Standard syntax */
+@keyframes tron{
+    0%   {color: cornflowerblue ;}
+    25%  {color: aqua;}
+    50%  {color: lightgreen;}
+    75% {color: yellow;}
+    100% {color: lightsalmon}
+}
